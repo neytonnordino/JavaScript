@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(assets/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 10%;
+  color: #fff;
+}
+
+.hero h3 {
+  margin-top: 15%;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.hero h1 {
+  margin-top: 30px;
+  font-size: 40px;
+  position: relative;
+  width: max-content;
+}
+
+.hero h1::after {
+  content: "";
+  height: 3px;
+  width: 90%;
+  background: linear-gradient(to right, transparent, #61b752);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.hero p {
+  margin: 10px 0 50px 10px;
+  position: relative;
+}
+
+.hero p::before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  top: 30%;
+  left: -15px;
+  background: linear-gradient(to right, transparent, #61b752);
+
+}
+
+form {
+  background: #fff;
+  display: flex;
+  width: fit-content;
+}
+
+form input {
+  border: 0;
+  outline: none;
+  padding: 10px 20px;
+  height: 50px;
+  width: 400px;
+  font-size: 16px;
+}
+
+form button {
+  background: #61b752;
+  border: 1px solid #61b752;
+  outline: none;
+  height: 50px;
+  width: 70px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+form button:hover {
+  background: #7fc972;
+}
+
+span {
+  color: #61b752;
+  font-size: 12px;
+  display: none;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}

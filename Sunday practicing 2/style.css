@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  list-style: none;
+}
+
+body {
+  background-color: #55c3;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 100%;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.content input {
+  width: 100%;
+  height: 30px;
+  min-width: 400px; 
+  border: none;
+  border-radius: 10px;
+  padding-left: 20px;
+  outline: none;
+  background-color: azure;
+}
+
+ul {
+  cursor: pointer;
+}
